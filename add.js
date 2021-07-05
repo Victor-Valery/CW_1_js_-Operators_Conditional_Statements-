@@ -3,14 +3,14 @@
 // var a = 20 + 30;
 // console.log(a);
 
-// *******************
+// ******************************************
 
 // var a = 20;
 // var b = 3;
 // var c = a * b;
 // console.log(c);
 
-// *******************
+// ********************************************
 
 // var a = 5;
 // var b = 7;
@@ -18,7 +18,7 @@
 // var d = a * b +c;
 // console.log(d);
 
-// *******************
+// ****************************************
 
 // Asignment Operators
 
@@ -32,7 +32,7 @@
 // a %= 5;
 // console.log(a);
 
-// *******************
+// ****************************************
 
 // Comparison Operators
 
@@ -74,7 +74,7 @@
 // var b = 7;
 // console.log(a>=b && b<=20);
 
-// *******************
+// *****************************************
 
 // Nullish coalescing operator
 
@@ -98,7 +98,7 @@
 // console.log(valB); // "" (as the empty string is not null or undefined)
 // console.log(valC); // 42
 
-// *******************
+// ***************************************
 
 // var x = 5;
 // var y = 2;
@@ -106,7 +106,7 @@
 // x = x*=y
 // console.log(x);
 
-// *******************
+// **************************************
 
 // var x = 5;
 // var y = 2;
@@ -115,7 +115,7 @@
 
 // console.log(x);
 
-// *******************
+// **********************************
 
 // var a = 3;
 // var b = 2;
@@ -124,13 +124,13 @@
 
 // x*=y;
 
-// *******************
+// *******************************************
 
 // var number = 10;
 // // number = number + 5;
 // number += 5;
 
-// *******************
+// ****************************************
 
 // var a = 100;
 // a *= 5;
@@ -139,8 +139,8 @@
 
 // console.log(7 !== 10);
 
-// *******************
-// *******************
+// **********************************
+// **************************************
 
 // Conditional Statements
 
@@ -165,7 +165,7 @@
 //   console.log(x); //(the condition is true and statement to be execute)
 // }
 
-// *******************
+// *****************************************
 
 // else Statement
 
@@ -196,7 +196,7 @@
 // console.log(age = "Not allowed to enter");
 // }
 
-// *******************
+// *******************************************
 
 // if…else if…else statement
 
@@ -222,7 +222,7 @@
 //     console.log("Good evening.");
 // }
 
-// *******************
+// **************************************
 
 // Switch Statements
 
@@ -274,7 +274,7 @@
 //  document.write(a+3);
 // }
 
-// *******************
+// **************************************
 
 // var num = 20;
 
@@ -286,7 +286,7 @@
 //     console.log("The number is a negative.");
 // }
 
-// *******************
+// **********************************************
 
 // var num = 0;
 
@@ -298,7 +298,7 @@
 //     console.log("The number is a zero.");
 // }
 
-// *******************
+// *************************************
 
 
 // var num = 0;
@@ -312,7 +312,7 @@
 // }
 
 
-// *******************
+// *****************************************
 
 // var num = prompt("Enter a number!!!");
 
@@ -325,11 +325,89 @@
 // }
 
 
-// *******************
+// *************************************
+
+// var isRaining = prompt("Is it raining?");
+
+// if (isRaining === "yes") {
+//     alert("Go take an umbrella!");
+// } else {
+//     alert("It's ok. You don't need anything.");
+// }
+
+// two equal signs or three equal are for comparison or equality chechking.
+
+// one equal sign is for assigning values to a variable.
+
+// *****************************************
+
+// && (and), || (or), ! (not)
+
+// true && true == true 
+// true && false == false 
+// false && true == false 
+// false && false == false 
+
+// true || true == true 
+// true || false == true 
+// false || true == true 
+// false || false == false 
+
+// !true == false
+// !false == true
+
+//-------------------------------------------------------------
 
 
+// var name = "lexi";
+// var age = 17;
+// var highSchool = true;
 
+// JOB AT APPLE
+// job requirements : over 18 and high school degree
 
+// if (age >= 18 && highSchool === true) {
+//     alert("You are applicable to apply for this job.")
+// }
 
+//-------------------------------------------------------------
 
+// var newGuy = "john";
+// var age = 28;
+// var highSchool = false;
 
+// // JOB AT AMAZON
+// // job requirements : over 18 or high school degree
+
+// if (age >= 18 || highSchool === true) {
+//     alert("You can apply!")
+// }
+
+// *****************************************
+
+// var num = 3;
+
+// if (num < 7) {
+//     console.log("Less than 7");
+// } else if (num < 5) {
+//     console.log("Less than 5");
+// } else {
+//     console.log("Greater than or equal to 7");
+// }
+
+// *****************************************
+
+// var num = 7;
+
+// switch (num) {
+//     case 1:
+//     case 2:
+//         console.log("Less than 3");
+//         break
+//     case 3:
+//         console.log("Equal to 3");
+//         break
+//     default:
+//         console.log("Greater than 3");
+//         break;
+// }
