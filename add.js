@@ -144,6 +144,190 @@
 
 // Conditional Statements
 
+// The following conditional statements are available in JavaScript:
+
+// If Statement: If a specified condition is true, Use if to specify a code block to be executed
+// else: If the same condition is false, Use else to specify a code block to be executed
+// else if: If the first condition is false, Use else if to specify a new condition to test
+// switch: compare a value with multiple variants.
+
+
+// if Statement
+
+// if (condition) {
+//     //  Statement (if the condition is true, statement to be execute)
+//   }
+
+//---------------------------
+
+//   var x = 3;
+// if (x == 3) {
+//   console.log(x); //(the condition is true and statement to be execute)
+// }
+
+// *******************
+
+// else Statement
+
+// if (condition) {
+//     //  Statement (if the condition is true, statement to be execute)
+//   } else {
+//     //  Statement (if the condition is false, statement to be execute)  
+//   }
+
+//-----------------------
+
+// var time = 12;
+// if (time < 8) {
+//     console.log("Good morning.");
+// } else {
+//     console.log("Good day.");
+// }
+
+//-----------------------
+
+// var age = 15;
+// if (age >= 18) {
+
+// console.log(age = "Allowed to enter");
+
+// } else {
+
+// console.log(age = "Not allowed to enter");
+// }
+
+// *******************
+
+// if…else if…else statement
+
+// if (condition_1) {
+//     //  Statement_1 (if the condition_1 is true, 
+//     //   statement_1 to be execute)
+// } else if (condition_2) {
+//     //  Statement_2 (if the condition_1 is false & condition_2 is true, 
+//     //  statement_2 to be execute)  
+// } else {
+//     //  Statement_3 (if the condition_1 & condition_2 are false, 
+//     //  statement_3 to be execute)  
+// }
+
+//-----------------------
+
+// var time = 21.00;
+// if (time < 8) {
+//     console.log("Good morning.");
+// } else if (time < 18) {
+//     console.log("Good afternoon.");
+// } else {
+//     console.log("Good evening.");
+// }
+
+// *******************
+
+// Switch Statements
+
+
+// var level = 'two';
+// var title;
+// switch (level) {
+//     case 'one':
+//         title = "Level 1";
+//         break;
+//     case 'two':
+//         title = "Level 2";
+//         break;
+//     case 'three':
+//         title = "Level 3";
+//         break;
+//     default:
+//         title = "Out of range.";
+//         break;
+// }
+// console.log(title)
+
+//-----------------------
+
+// var name = 'Victor';
+// switch (name) {
+//   case 'John':
+//     console.log(name + ' is a instructor.');
+//     break;
+//   case 'Walter':
+//   case 'James':
+//     console.log(name + ' is a mentor.');
+//     break;
+//   default:
+//     console.log('Sorry, i dont know ' + name+ '.');
+// }
+
+//-----------------------
+
+// var a = 7;
+// switch (a) {
+//  case 1:
+//  document.write(a);
+//  break;
+//  case 2:
+//  document.write(a+2);
+//  break;
+//  default:
+//  document.write(a+3);
+// }
+
+// *******************
+
+// var num = 20;
+
+// if (num > 0) {
+//     console.log("The number is a positive.");
+// }
+
+// if (num < 0) {
+//     console.log("The number is a negative.");
+// }
+
+// *******************
+
+// var num = 0;
+
+// if (num > 0) {
+//     console.log("The number is a positive.");
+// } else if (num < 0) {
+//     console.log("The number is a negative."); 
+// } else {
+//     console.log("The number is a zero.");
+// }
+
+// *******************
+
+
+// var num = 0;
+
+// if (num > 0) {
+//     alert("The number is a positive.");
+// } else if (num < 0) {
+//     alert("The number is a negative."); 
+// } else {
+//     alert("The number is a zero.");
+// }
+
+
+// *******************
+
+// var num = prompt("Enter a number!!!");
+
+// if (num > 0) {
+//     alert("The number is a positive.");
+// } else if (num < 0) {
+//     alert("The number is a negative."); 
+// } else {
+//     alert("The number is a zero.");
+// }
+
+
+// *******************
+
+
 
 
 
